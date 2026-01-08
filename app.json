@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SmartCity Switzerland",
+    "slug": "smartcity-switzerland",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/hero/mountain.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-location",
+      "expo-secure-store",
+      "expo-sqlite",
+      "expo-font"
+    ]
+  }
+}

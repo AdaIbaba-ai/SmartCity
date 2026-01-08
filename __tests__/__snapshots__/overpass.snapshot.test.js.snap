@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchOverpassData snapshot snapshot of mapped Overpass response 1`] = `
+[
+  {
+    "id": 123,
+    "lat": 47,
+    "lng": 8,
+    "name": "Snapshot Café",
+    "properties": {
+      "name": "Snapshot Café",
+      "openingHours": "unknown",
+      "rating": "unknown",
+      "type": "cafe",
+    },
+    "tags": {
+      "amenity": "cafe",
+      "name": "Snapshot Café",
+    },
+    "type": "cafe",
+  },
+]
+`;
